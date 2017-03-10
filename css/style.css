@@ -1,3 +1,7 @@
+html{
+  width:100%;
+height:100%;
+}
 body{
   font: 100%/1.5  Helvetica;
   padding:0;
@@ -67,7 +71,7 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 4% 5% 0 10%;
+  padding: 4% 5% 0 5%;
   font: Helvetica;
   font-style: oblique;
   font-weight: bold;
