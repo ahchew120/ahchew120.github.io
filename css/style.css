@@ -10,6 +10,9 @@ body{
   width: 100%;
   height: 100%;
 }
+header{
+height:100%;
+}
 
 /* Global */
 .container{
@@ -46,10 +49,8 @@ ul{
 }
 
 /* logo **/
-
-img.logo{
- width:100%;
- text-align:center;
+img .logo{
+ max-width:100%;
 }
 
 /* Header **/
