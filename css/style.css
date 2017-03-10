@@ -1,5 +1,5 @@
 body{
-  font: 12px/1.5  Helvetica;
+  font: 100%/1.5  Helvetica;
   padding:0;
   margin:0;
   background-color:#35424a;
@@ -21,17 +21,16 @@ ul{
 }
 
 .button_1{
-width: 20%;
+  width: 20%;
   background:#338dff;
   border:0;
-
   color:#ffffff;
 }
 
 .dark{
-  padding:15px;
-  margin-top:5px;
-  margin-bottom:10px;
+  padding:5%;
+  margin-top:5%;
+  margin-bottom:5%;
   background:rgba(0, 0, 0, 0.5);
 }
 
@@ -60,7 +59,7 @@ header a{
   color:#ffffff;
   text-decoration:none;
   text-transform: uppercase;
-  font-size:12px;
+  font-size:100%;
   font: Helvetica;
 
 }
@@ -68,25 +67,27 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding: 20px 50px 0 50px;
+  padding: 4% 5% 0 10%;
   font: Helvetica;
   font-style: oblique;
   font-weight: bold;
 
 }
+ header nav{
+   width: 50%;
+   float:right;
+ }
+
 
 header #branding{
   float:left;
+
 }
 
 header #branding h1{
   margin:0;
 }
 
-header nav{
-  float:right;
-  margin-top:10px;
-}
 
 header .highlight, header .current a{
   color:#338dff;
@@ -113,7 +114,7 @@ header a:hover{
 }
 
 #showcase .container{
-padding: 50px;
+padding: 5%;
 
   width: 80%;
 
@@ -126,7 +127,7 @@ justify-content: center;
 #showcase .box{
 
   text-align: left;
-  padding:30px;
+  padding:5%;
   background:rgba(0, 0, 0, 0.5);
 
 }
@@ -134,27 +135,27 @@ justify-content: center;
 
 
 #showcase h1{
-  font-size:50px;
+  font-size:300%;
   font-style: oblique;
   margin-top:0px;
   margin-bottom:0px;
-  padding-top: 0px;
+  padding-top: 5%;
 }
 
 #showcase p{
-  font-size:12px;
+  font-size:100%;
 }
 
 /*main*/
 #main{
-  background:url('../img/background.jpg') no-repeat 0 -100px;
+  background:url('../img/background.jpg') no-repeat 0 -0%;
   color:#ffffff;
   right: 0;
   bottom: 0;
   left: 0;
-  top:80px;
+  top:9%;
   position: absolute;
-  font-size: 12px;
+  font-size: 80%;
 }
 
 #main .box{
@@ -167,7 +168,7 @@ justify-content: center;
 
 }
 #main .container{
-padding: 50px;
+padding: 3%;
 
   width: 80%;
 
@@ -183,7 +184,7 @@ justify-content: center;
 
 }
 #main .box h1{
-font-size: 25px;
+font-size: 200%;
 font-style: oblique;
 
 }
@@ -196,10 +197,9 @@ font-style: oblique;
 }
 
 #main .aboutus{
-  min-width: 25%;
   float:left;
   text-align: left;
-  padding:30px;
+  padding-left: 5%;
   background:rgba(0, 0, 0, 0.5);
 }
 
@@ -208,7 +208,7 @@ font-style: oblique;
 }
 
 #main .aboutus h1{
-font-size: 25px;
+font-size: 200%;
 font-style: oblique;
 }
 
@@ -219,13 +219,13 @@ font-style: oblique;
 aside#sidebar{
   float:left;
   width:30%;
-  margin-top:10px;
-  padding-right: 30px;
+  margin-top:5%;
+  padding-right: 5%;
 }
 
 aside#sidebar .quote input, aside#sidebar .quote textarea{
   width:90%;
-  padding:5px;
+  padding-bottom: 1%;
 }
 
 /* Main-col */
@@ -237,7 +237,7 @@ article#main-col{
 /* Services */
 ul#services li{
   list-style: none;
-  padding:30px;
+  padding:2%;
   margin-bottom:0px;
   background-color:rgba(0, 0, 0, 0.5);
   width: 70%;
@@ -250,34 +250,8 @@ footer{
   right: 0;
   bottom: 0;
   left: 0;
-  padding:1px;
   color:#ffffff;
   background-color:rgba(0, 0, 0, 0.5);
   text-align: center;
-  font-size: 10px;
-}
-
-/* Media Queries */
-@media(max-width: 768px){
-  header #branding,
-  header nav,
-  header nav li,
-  #boxes .box,
-  article#main-col,
-  aside#sidebar{
-    float:none;
-    text-align:center;
-    width:100%;
-  }
-
-  header{
-    padding-bottom:20px;
-  }
-
-
-
-  /* Boxes */
-  textarea#message{
-    background-color: #35424a;
-  }
+  font-size: 70%;
 }
