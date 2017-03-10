@@ -3,6 +3,8 @@ body{
   padding:0;
   margin:0;
   background-color:#35424a;
+  width: 100%;
+  height: 100%;
 }
 
 /* Global */
@@ -19,11 +21,10 @@ ul{
 }
 
 .button_1{
-  height:38px;
+width: 20%;
   background:#338dff;
   border:0;
-  padding-left: 20px;
-  padding-right:20px;
+
   color:#ffffff;
 }
 
@@ -37,15 +38,14 @@ ul{
 .googlemap{
   color:black;
   overflow:hidden;
-  height:400px;
-  width:455px;
+  height:100%;
+  width:100%;
 }
 
 /* logo **/
 
 img.logo{
- width:200px;
- height:80px;
+ width:100%;
  text-align:center;
 }
 
@@ -53,8 +53,7 @@ img.logo{
 header{
   background:rgba(0, 0, 0, 0.5);
   color:#ffffff;
-  padding-top:15  px;
-  min-height:60px;
+
 }
 
 header a{
@@ -107,7 +106,7 @@ header a:hover{
   margin-top:0px;
   bottom: 0px;
   top:80px;
-    text-align: center;
+  text-align: center;
   position: absolute ;
   width: 100%;
 
@@ -159,7 +158,7 @@ justify-content: center;
 }
 
 #main .box{
-  min-width: 250px;
+  min-width: 15%;
   float:left;
   text-align: left;
   padding:30px;
@@ -180,7 +179,7 @@ justify-content: center;
 
 
 #main .box img{
-  width:150px;
+  width:60%;
 
 }
 #main .box h1{
@@ -197,7 +196,7 @@ font-style: oblique;
 }
 
 #main .aboutus{
-  min-width: 250px;
+  min-width: 25%;
   float:left;
   text-align: left;
   padding:30px;
@@ -205,8 +204,7 @@ font-style: oblique;
 }
 
 #main .aboutus img{
-  width:600px;
-  height: 350px;
+  width:60%;
 }
 
 #main .aboutus h1{
@@ -280,7 +278,6 @@ footer{
 
   /* Boxes */
   textarea#message{
-    height: 150px;
     background-color: #35424a;
   }
 }
