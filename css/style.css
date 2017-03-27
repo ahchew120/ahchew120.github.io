@@ -498,13 +498,14 @@ background-color: green;
 		padding-top: 5%;
 		width: 90%;
 		margin-top: 0px;
-		margin-right: 5%;
+		margin-right: 0%;
 		margin-bottom: 0px;
 		margin-left: 5%;
-		display: grid;
+		/*display: grid;
 		display: -webkit-grid;
 		-webkit-justify-content: center;
 		justify-content: center;
+		*/
 
 	}
 
@@ -517,7 +518,7 @@ background-color: green;
 		margin-top: 0%;
 		margin-right: 0%;
 		margin-bottom: 10%;
-		margin-left: 10%;
+		margin-left: 0%;
 		font-size: 12px;
 	}
 
@@ -533,7 +534,7 @@ background-color: green;
 	#services .container{
 		padding-top: 2%;
 		padding-bottom: 5%;
-		display: -webkit-grid;
+		display: -webkit-inline-grid;
 		display: inline-grid;
 		-webkit-justify-content: center;
 		justify-content: center;
