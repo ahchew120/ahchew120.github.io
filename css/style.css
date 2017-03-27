@@ -472,12 +472,24 @@ background-color: green;
 	}
 
 
+	.box{
+		width: 50%;
+		text-align: center;
+		padding:20px;
+		background:rgba(0, 0, 0, 0.5);
+		color: #FFFFFF;
+		margin-top: 8%;
+		margin-right: 0%
+		margin-bottom: 10%;
+		margin-left: 20%;
+	}
+
 	.box h1{
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.text_column {
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 
@@ -490,7 +502,9 @@ background-color: green;
 		margin-bottom: 0px;
 		margin-left: 5%;
 		display: grid;
-		display: -webkit-grid
+		display: -webkit-grid;
+		-webkit-justify-content: center;
+		justify-content: center;
 
 	}
 
