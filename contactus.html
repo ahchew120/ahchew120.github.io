@@ -1,108 +1,103 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
-    <meta name="description" content="ALPSPINE">
-	  <meta name="keywords" content="ALPSPINE">
-  	<meta name="author" content="LPC">
-    <title>Alpspine</title>
-        <link rel="icon" href="img/symbol.png"/>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <a href="index.html" target="_self">
-            <img class="logo"src="img/alpslogo.png">
-          </a>
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ALPSPINE">
+  <meta name="keywords" content="ALPSPINE">
+  <meta name="author" content="LPC">
+  <title>Alpspine</title>
+  <link rel="icon" href="img/symbol.png"/>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="normalpage">
+  <header>
+    <div class="container">
+      <a href="index.html" target="_self">
+        <img class="logo" src="img/alpslogo.png">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class="current"><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="contactus">
+    <div class="container">
+      <article id="main-col">
+        <ul id="contacts">
+          <li>
+            <h3>contact person 1</h3>
+            <p class='text_column'>xxxxxxxxxxxxxxx</p>
+            <p class='text_column'>xxxxxxxxxxxxxxx</p>
+          </li>
+          <li>
+            <h3>contact person 2</h3>
+            <p class='text_column'>xxxxxxxxxxxxxxx</p>
+            <p class='text_column'>xxxxxxxxxxxxxxxxx</p>
+          </li>
+          <li>
+            <h3>Adress office information</h3>
+            <p class='text_column'>Oasis Corparte Park<br> C-9-22, Ara Damansara, 47301 Petaling Jaya, Selangor, Malaysia</p>
+          </li>
+        </ul>
+      </article>
+
+      <aside id="sidebar">
+        <div class="box">
+          <h3>Send Us Your Message</h3>
+          <form class="quote">
+            <div>
+              <label>Name</label><br>
+              <input type="text" placeholder="Name">
+            </div>
+            <div>
+              <label>Email</label><br>
+              <input type="email" placeholder="Email Address">
+            </div>
+            <div>
+              <label>Contact Number</label><br>
+              <input type="text" placeholder="Contact Number">
+            </div>
+            <div>
+              <label>Message</label><br>
+              <textarea placeholder="Message" class="message"></textarea>
+            </div>
+            <button class="button_1" type="submit"  onclick="Warn();">Send</button>
+
+            <script type="text/javascript">
+            <!--
+            function Warn() {
+              alert ("Thanks for your message ! \n We will contact you soon !");
+            }
+            //-->
+            </script>
+
+
+          </form>
         </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li class="current"><a href="contactus.html">Contact Us</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section id="main">
-      <div class="container">
-        <article id="main-col">
-          <br>
-          <br>
-          <br>
-          <ul id="services">
-            <li>
-              <h3>contact person 1</h3>
-              <p>xxxxxxxxxxxxxxx</p>
-						  <p>xxxxxxxxxxxxxxx</p>
-            </li>
-            <li>
-              <h3>contact person 2</h3>
-              <p>xxxxxxxxxxxxxxx</p>
-						  <p>xxxxxxxxxxxxxxxxx</p>
-            </li>
-            <li>
-              <h3>Adress office information</h3>
-              <p>xxxxxxxx</p>
-						  <p>xxxxxxxxxxxxxxxxx</p>
-            </li>
-          </ul>
-        </article>
         <br>
-        <br>
-        <br>
-        <aside id="sidebar">
-          <div class="dark">
-            <h3>Send Us Your Message</h3>
-            <form class="quote">
-  						<div>
-  							<label>Name</label><br>
-  							<input type="text" placeholder="Name">
-  						</div>
-  						<div>
-  							<label>Email</label><br>
-  							<input type="email" placeholder="Email Address">
-  						</div>
-              <div>
-                <label>Contact Number</label><br>
-                <input type="text" placeholder="Contact Number">
-              </div>
-  						<div>
-  							<label>Message</label><br>
-  							<textarea placeholder="Message" class="message"></textarea>
-  						</div>
-  						<button class="button_1" type="submit"  onclick="Warn();">Send</button>
-
-              <script type="text/javascript">
-                 <!--
-                    function Warn() {
-                       alert ("Thanks for your message ! \n We will contact you soon !");
-                    }
-                 //-->
-              </script>
-
-
-              	</form>
-                       </div>
-                <br>
-              <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-              <div class="googlemap">
-                <div id='gmap_canvas' style='height:300px;width:500px; '></div>
-                <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
-              </div>
-              <script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(3.111881375759399,101.57703608220903),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(3.111881375759399,101.57703608220903)});infowindow = new google.maps.InfoWindow({content:'<strong>Alpspine</strong><br>Oasis Corparte Park<br> C-9-22, Ara Damansara, <Br> 47301 Petaling Jaya, Selangor, Malaysia <br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <div class="googlemap">
+          <div id='gmap_canvas' class='gmap'></div>
+        </div>
+        <script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(3.111881375759399,101.57703608220903),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(3.111881375759399,101.57703608220903)});infowindow = new google.maps.InfoWindow({content:'<strong>Alpspine</strong><br'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 
         </aside>
       </div>
     </section>
 
+
     <footer>
-      <p>ALPS, Copyright &copy; 2017</p>
+      <div class="container">
+        <p>ALPS, Copyright &copy; 2017</p>
+      </div>
     </footer>
   </body>
-</html>
+  </html>
