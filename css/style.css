@@ -259,7 +259,6 @@ footer{
 		float: none;
 		overflow: auto;
 		display: inline-block;
-		background: green;
 	}
 	header nav ul {
 		padding: 0px;
@@ -280,11 +279,11 @@ footer{
 		width: 70%;
 	}
 	.box h1{
-		font-size: 25px;
+		font-size: 18px;
 	}
 
 	.text_column {
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 
@@ -436,7 +435,7 @@ footer{
 		margin-right: 5%;
 		margin-bottom: 0px;
 		margin-left: 5%;
-		background-color: yellow;
+
 		display: flex;
 		align-items: center;
 	}
@@ -626,7 +625,6 @@ font-size: 5px;
 		margin-right: 5%;
 		margin-bottom: 0px;
 		margin-left: 5%;
-		background-color: blue;
 		display: flex;
 		align-items: center;
 	}
